@@ -1,15 +1,15 @@
-    Depandance:
-            -php
-            -mysql ou mariadb
-            -npm
-            -composer
-            -git (optionnelle)
+        Depandance:
+                -php
+                -mysql ou mariadb
+                -npm
+                -composer
+                -git (optionnelle)
 
-    tellecharger le depot
-        # git clone https://github.com/redhox/laravel_blog.git 
+        tellecharger le depot
+            # git clone https://github.com/redhox/laravel_blog.git 
 
-    dans le dossier:
-        Install composer: 
+        dans le dossier:
+            Install composer: 
                         # composer install
 
         Install npm package:
