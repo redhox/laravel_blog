@@ -25,5 +25,5 @@
         start project:
                         # php artisan serve
                         
-        deploiment d'un projet laravel  
+        deploiment d'un projet laravel:
                         https://www.fosslinux.com/9284/how-to-install-laravel-on-debian-9.htm
