@@ -2,7 +2,7 @@
 <h1> instalation et deploiment d'un site d'article laravel </h1>
 <br>
 Depandance: <br>
-&emsp; -php <br>
+&emsp; -php (BCMath, Ctype, JSON, Mbstring, OpenSSL, PDO, Tokenizer, and XML)<br>
 &emsp; -mysql ou mariadb <br>
 &emsp; -npm <br>
 &emsp; -composer <br>
