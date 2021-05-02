@@ -1,6 +1,7 @@
 
 <h1> instalation et deploiment d'un site d'article laravel </h1>
 <br>
+le "laravel_blog" est le resulta du tuto de "bestmomo" presant <a href="https://laravel.sillo.org/laravel-8/">ici</a>
 Depandance: <br>
 &emsp; -php (BCMath, Ctype, JSON, Mbstring, OpenSSL, PDO, Tokenizer, and XML)<br>
 &emsp; -mysql ou mariadb <br>
