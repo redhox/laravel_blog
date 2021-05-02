@@ -1,7 +1,7 @@
 
 <h1> instalation et deploiment d'un site d'article laravel </h1>
 <br>
-le "laravel_blog" est le resulta du tuto de "bestmomo" presant <a href="https://laravel.sillo.org/laravel-8/">ici</a>
+le "laravel_blog" est le resulta du tuto de "bestmomo" present <a href="https://laravel.sillo.org/laravel-8/">ici</a>
 <br>
 <br>
 Depandance: <br>
