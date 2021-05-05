@@ -11,6 +11,7 @@ Depandance: <br>
 &emsp; -composer <br>
 &emsp; -git (optionnelle) <br>
 
+
 <h2>instalation</h2>
 tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
                 
@@ -30,6 +31,9 @@ tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
 
         Generé la project key:
                         # php artisan key:generate
+                        
+        faite la migration: des table:
+                        # php artisan migrate
 
         start project:
                         # php artisan serve
