@@ -7,7 +7,7 @@ le "laravel_blog" est le resulta du tuto de "bestmomo" present <a href="https://
 Depandance: <br>
 &emsp; -<a href="https://doc.ubuntu-fr.org/lamp">php</a> (BCMath, Ctype, JSON, Mbstring, OpenSSL, PDO, Tokenizer, and XML)<br>
 &emsp; -mysql ou mariadb <br>
-&emsp; -npm <br>
+&emsp; -npm (<a href="https://www.geeksforgeeks.org/how-to-update-npm/" alt="npm install -g npm@next">a jour</a>) <br>
 &emsp; -composer <br>
 &emsp; -git (optionnelle) <br>
 
