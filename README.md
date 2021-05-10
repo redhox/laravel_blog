@@ -67,6 +67,13 @@ dans   "etc/apache2/sites-available/000-default.conf"   configuré le vrtual_hos
 
         </VirtualHost>
         
+sur des systeme comme ubuntu il faut autorisé au module d'ecrire:
+            
+            
+
+    sudo a2enmod rewrite
+
+<br>
 puis pour finir recharger apache: 
 
         sudo service apache2 restart
