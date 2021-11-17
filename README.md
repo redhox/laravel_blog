@@ -24,7 +24,9 @@ tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
 
         Install npm package:
                         # npm install
-
+        si vulnerabilité:
+                        # npm audit fix
+        
         copier et edité .env file from .env.example:
                         # cp .env.example .env
         "crée une database dont le nom et les accès seront dans le .env"
