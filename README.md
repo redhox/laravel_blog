@@ -96,3 +96,6 @@ puis dans la racine du dossier laravel:
         
         sudo find . -type f -exec chmod 664 {} \;   
         sudo find . -type d -exec chmod 775 {} \;
+        
+pour metre le premier utilisateur admin utilisé
+        UPDATE users set role='admin' WHERE id=1;
