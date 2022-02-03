@@ -19,7 +19,7 @@ tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
                 
   tellecharger le depot
             
-            # git clone https://github.com/redhox/laravel_blog.git 
+             git clone https://github.com/redhox/laravel_blog.git 
 
   dans le dossier:
             Install composer: 
