@@ -15,29 +15,40 @@ Depandance: <br>
 <h2>instalation</h2>
 tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
                 
-        tellecharger le depot
+                
+                
+  tellecharger le depot
+            
             # git clone https://github.com/redhox/laravel_blog.git 
 
-        dans le dossier:
+  dans le dossier:
             Install composer: 
+            
                         # composer install
 
-        Install npm package:
+   Install npm package:
+   
                         # npm install
-        si vulnerabilité:
+   si vulnerabilité:
+   
                         # npm audit fix
         
-        copier et edité .env file from .env.example:
+   copier et edité .env file from .env.example:
+   
                         # cp .env.example .env
-        "crée une database dont le nom et les accès seront dans le .env"
+  
+  "crée une database dont le nom et les accès seront dans le .env"
 
-        Generé la project key:
+   Generé la project key:
+   
                         # php artisan key:generate
                         
-        faite la migration: des table:
+   faite la migration: des table:
+    
                         # php artisan migrate
 
-        start project:
+   start project:
+   
                         # php artisan serve
                         
                         
@@ -48,19 +59,19 @@ tuto de:https://tecadmin.net/install-laravel-on-debian-10-buster/
 <br>
 dans   "etc/apache2/sites-available/000-default.conf"   configuré le vrtual_host
 <br>
-"/var/www/votre_projet_laravel" etant le repertoire de base pour les projet web sous debian 
+"/var/www/laravel_blog" etant le repertoire de base pour les projet web sous debian 
 <br>
 
         <VirtualHost *:80>
 
                 ServerAdmin webmaster@localhost
-                DocumentRoot /var/www/votre_projet_laravel/public
+                DocumentRoot /var/www/laravel_blog/public
 
                 <Directory />
                         Options FollowSymLinks
                         AllowOverride None
                 </Directory>
-                <Directory /var/www/votre_projet_laravel>
+                <Directory /var/www/laravel_blog>
                         AllowOverride All
                 </Directory>
 
@@ -84,18 +95,25 @@ puis pour finir recharger apache:
 (evité le chmod -R 777) <br>
 tuto de:https://stackoverflow.com/questions/30639174/how-to-set-up-file-permissions-for-laravel
         
-
  
-         sudo chown -R www-data:www-data /var/www/votre_projet_laravel
-         sudo find /var/www/votre_projet_laravel -type f -exec chmod 644 {} \;   
-         sudo find /var/www/votre_projet_laravel -type d -exec chmod 755 {} \;
+         sudo chown -R www-data:www-data /var/www/laravel_blog
+   .      
+         
+         sudo find /var/www/laravel_blog -type f -exec chmod 644 {} \;   
+   .     
+         
+         sudo find /var/www/laravel_blog -type d -exec chmod 755 {} \;
                         
 puis dans la racine du dossier laravel:
     
         sudo chown -R $USER:www-data .
+  .      
         
         sudo find . -type f -exec chmod 664 {} \;   
+  .      
+        
         sudo find . -type d -exec chmod 775 {} \;
         
 pour metre le premier utilisateur admin utilisé
+
         UPDATE users set role='admin' WHERE id=1;
