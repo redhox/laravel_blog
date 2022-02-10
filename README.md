@@ -24,32 +24,32 @@ tuto de:https://medium.com/@xroms123/laravel-clone-project-9e4eca817057
   dans le dossier:
             Install composer: 
             
-                        # composer install
+                         composer install
 
    Install npm package:
    
-                        # npm install
+                         npm install
    si vulnerabilité:
    
-                        # npm audit fix
+                         npm audit fix
         
    copier et edité .env file from .env.example:
    
-                        # cp .env.example .env
+                         cp .env.example .env
   
   "crée une database dont le nom et les accès seront dans le .env"
 
    Generé la project key:
    
-                        # php artisan key:generate
+                         php artisan key:generate
                         
    faite la migration: des table:
     
-                        # php artisan migrate
+                        php artisan migrate
 
    start project:
    
-                        # php artisan serve
+                        php artisan serve
                         
                         
 <h2>deploiment du projet :</h2>
